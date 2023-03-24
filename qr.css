@@ -62,7 +62,7 @@ main {
 	background-color: #fff;
 	box-shadow: 0px 0px 5px #999;
 }
-h1 {
+#customer-details h1 {
 	background: #485cf2;
 }
 form {
