@@ -1,0 +1,154 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header img{
+	width: 80px;
+	height: 60px;
+}
+
+nav {
+	background-color: #555;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* .hidden {
+	display: none;
+} */
+
+.qr-code {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.qr-code img {
+	max-width: 50%;
+	height: auto;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px #999;
+}
+h1 {
+	background: #485cf2;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px #ccc;
+}
+
+button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #1266c5;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+.contain{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding:0px 20px 20px 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: linear-gradient(to bottom, #eee, #fff);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	font-size: 14px;
+  }
+  
+  thead {
+	background: #eee;
+  }
+  
+  th {
+	font-weight: bold;
+	text-align: left;
+	padding: 10px;
+  }
+  
+  td {
+	padding: 10px;
+  }
+  
+  input[type="text"] {
+	width: 100%;
+	border: none;
+	background: transparent;
+	text-align: center;
+  }
+  
+  input[type="text"]:focus {
+	outline: none;
+	background: #fff;
+  }
+  
+  tr:nth-child(even) {
+	background: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+	background: #485cf2;
+  }
+  
+  tr:hover {
+	background: #ddd;
+  }
+  

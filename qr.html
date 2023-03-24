@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="/qr.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Welcome to PHED QR Landing Portal !</h1>
+		<img src="./PHED-logo-transparent.png" alt="">
+	</header>
+	<main>
+		<!-- <div class="qr-code">
+			<img src="./HelloTech-qr-code-1024x1024.jpg" alt="QR code">
+			<p>Scan this QR code to access our services</p>
+		</div> -->
+		<nav>
+			<ul>
+				<li class="big">Payment and Customer Details</li>
+				<li id="customer" class="hidden" >Customer Details</li>
+				<li id="payment" class="hidden">Payment Details</li>
+			  </ul>
+			
+		</nav>
+		
+		<div id="customer-details" class="hidden">
+			<h1>Customer Details</h1>
+			<form>
+				<div class="contain">
+				<div class="a">
+				<p for="account-number">Account Number: <strong>860009018401</strong>  </p>
+				
+				<p for="account-number">Account Name: <strong>SHELL  GATE  HOTEL</strong>  </p>
+				<p for="account-number">Address: <strong>NO 27 CHIEF WOPARA  STREE RUMUOBIA</strong>  </p>
+			</div>
+			<div class="b">
+				<p for="account-number">Meter Serial No: <strong>219857795</strong>  </p>
+				<p for="account-number">Tariff : <strong>C2</strong>  </p>
+				<label for="account-number">Marketer Name: <strong>ANGELA EKE</strong>  </label>
+				
+			</div>
+			<div class="c">
+				<p for="account-number">Account Status: <strong>Active</strong>  </p>
+				<p for="account-number">GPS N: <strong>7.02940939</strong>  </p>
+				<p for="account-number">GPS E: <strong>4.83457181</strong>  </p>
+				
+			</div>
+		 </div>
+				
+			</form>
+			<table>
+				<thead>
+				  <tr>
+					<th>Date</th>
+					<th>Amount</th>
+					<th>Balance</th>
+					<th>Reading</th>
+					<th>Consumption</th>
+					<th>KVA</th>
+					<th>Read Code</th>
+					<th>Tariff</th>
+					<th>Bill ID</th>
+					<th>Receipt No</th>
+					<th>Remarks</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>01/07/2022</td>
+					<td>332,771.5</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>67790139</td>
+					<td></td>
+					<td>Bill</td>
+				  </tr>
+				  <tr>
+					<td>01/08/2022</td>
+					<td>332,771.5</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td></td>
+					<td>2908202217708888</td>
+					<td>Payment</td>
+				  </tr>
+				  <tr>
+					<td>01/09/2022</td>
+					<td>332,771.5</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>67790139</td>
+					<td></td>
+					<td>Bill</td>
+				  </tr>
+				  <tr>
+					<td>22/10/2022</td>
+					<td>-149,950.0</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td></td>
+					<td></td>
+					<td>Adjustment</td>
+				  </tr>
+				  <tr>
+					<td>08/11/2022</td>
+					<td>332,771.5</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>67790139</td>
+					<td>0811202219278637</td>
+					<td>Payment</td>
+				  </tr>
+				  <tr>
+					<td>01/12/2022</td>
+					<td>87,771.5</td>
+					<td>861,401.27</td>
+					<td>1300270</td>
+					<td>4295</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>67790139</td>
+					<td></td>
+					<td>Bill</td>
+				  </tr>
+				  <tr>
+					<td>01/01/2023</td>
+					<td>332,771.5</td>
+					<td>861,401.27</td>
+					<td>121454</td>
+					<td>5078</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>67790139</td>
+					<td></td>
+					<td>Bill</td>
+				  </tr>
+				  <tr>
+					<td>01/02/2023</td>
+					<td>119,490.81
+					</td>
+					<td>1,250,320.16
+					</td>
+					<td>135308</td>
+					<td>1552</td>
+					<td>0</td>
+					<td>R</td>
+					<td>C2</td>
+					<td>69387069</td>
+					<td></td>
+					<td>Bill</td>
+				  </tr>
+				  <!-- Repeat the above row as many times as needed -->
+				</tbody>
+			  </table>
+			  
+			</div>
+			
+		</div>
+		
+		<div id="paymentDetails" class="hidden">
+			<button type="submit">Make Payment</button>
+			<div id="payment" class="hidden">
+			<h2>Payment Details</h2>
+			<form>
+				<label for="card-number">Card Number:</label>
+				<input type="text" id="card-number" name="card-number">
+				<label for="expiry-date">Expiry Date:</label>
+				<input type="text" id="expiry-date" name="expiry-date">
+				<label for="cvv">CVV:</label>
+				<input type="text" id="cvv" name="cvv">
+				<button type="submit">Submit Payment</button>
+			</form>
+		</div>
+	</main>
+	<div id="buttons">
+		<button id="showCustomer">Customer Details</button>
+		<button id="showPayment">Payment Details</button>
+	  </div>
+	
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+
+    <script src="/qr.js"></script>
+</body>
+</html>
